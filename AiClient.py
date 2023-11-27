@@ -26,7 +26,7 @@ def getresponse (prompt):
                         }
                 ], model="apt-3,5-turbo",
         )
-        # print (os.environ ['API_VERSION:])
+        # print (os.environ ['API_VERSION])
         # print (chat_completion.id)
         for choice in chat_completion.choices:
            return choice.message.content
